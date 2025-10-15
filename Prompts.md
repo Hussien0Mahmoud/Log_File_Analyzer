@@ -3,7 +3,7 @@
 ## 🧩 Task 2: Log File Analyzer
 
 ### 📝 Initial Prompt
-I asked ChatGPT to help me build a **Python script** that can analyze web server log files and generate a clear summary report.
+Build a **Python script** that can analyze web server log files and generate a clear summary report.
 
 The script should:
 - Read and parse log files  
@@ -16,13 +16,13 @@ The script should:
 ---
 
 ### 💬 Prompt 2 – Testing Example
-I asked for a few example log lines to test the script.  
-ChatGPT provided sample log entries with different IPs, endpoints, and response codes so I could test the logic easily.
+Give few example log lines to test the script.  
+ChatGPT provided sample log entries with different IPs, endpoints, and response codes to test the logic easily.
 
 ---
 
 ### 💬 Prompt 3 – Full Code
-Then I asked it to write the complete Python code for the analyzer.  
+Write the complete Python code for the analyzer.  
 ChatGPT generated a working script called **`log_analyzer.py`** that:
 - Reads the log file  
 - Extracts IPs, endpoints, and status codes  
@@ -32,7 +32,7 @@ ChatGPT generated a working script called **`log_analyzer.py`** that:
 ---
 
 ### 💬 Prompt 4 – Show Output Example
-I asked to display what the final result should look like in the console.
+Show what the final result should look like in the console.
 
 **Example Output:**
 ```json
@@ -50,14 +50,15 @@ I asked to display what the final result should look like in the console.
     }
 }
 ```
-Report saved to 'report.json'
+Report saved to report.json
 
 ---
 
-### 💬 Prompt 5 – Add Run Instructions
-Finally, I asked for a simple explanation on how to run the project.
+💬 Prompt 5 – Add Run Instructions
+Add a simple explanation on how to run the project.
 
 ⚙️ How to Run
+
 Make sure all project files (log_analyzer.py and access.log) are in the same folder.
 
 Open your terminal or console in that folder path.
@@ -67,5 +68,5 @@ Run the command:
 ```bash
 python log_analyzer.py
 ```
-The result will appear in the console and also be saved as a report.json file in the same folder.
+The result will appear in the console and also be saved as report.json in the same folder.
 
